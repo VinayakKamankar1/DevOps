@@ -2,7 +2,7 @@ Terminal session 1 : Creating a "Hello World" Java Application
 
 java -version
 sudo apt update 
-sudo apt install default-jdk -y
+sudo apt install default-jdk -y 
 
 mkdir hello-world-java
 cd hello-world-java
@@ -24,3 +24,7 @@ git remote -v
 git branch -M main
 git pull --rebase origin main
 git push -u origin main
+
+
+sudo apt remove jenkins
+sudo systmctl status jankins
