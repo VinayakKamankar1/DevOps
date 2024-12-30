@@ -22,5 +22,5 @@ git commit -m "initialized Hello World"
 git remote add origin https://github.com/your-username/my-repo.git
 git remote -v
 git branch -M main
-git pull --rebaseorigin main
+git pull --rebase origin main
 git push -u origin main
